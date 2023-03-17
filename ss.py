@@ -12,6 +12,3 @@ elif sentiment < 0:
     print("Text je negativní.")
 else:
     print("Text je neutrální.")
-
-
-
