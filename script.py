@@ -22,5 +22,4 @@ with open('filename.txt', 'w', encoding='utf-8') as csv_file:
     writer.writeheader()
     for word, count in word_counts.items():
         writer.writerow({'word': word, 'count': count})
-        
-        
+
